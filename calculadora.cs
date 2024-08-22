@@ -58,7 +58,7 @@ namespace Calculadora
                         break;
                 }
 
-                Console.WriteLine("¿Desea continuar? (S/N)");
+                Console.WriteLine("¿Desea continuar? (Sí/No)");
                 string respuesta = Console.ReadLine().ToUpper();
 
                 if (respuesta != "S")
